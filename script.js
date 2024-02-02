@@ -1,7 +1,7 @@
 function calculateAge() {
     // Get the input value (birth date)
     var birthDateInput = document.getElementById("birthDate").value;
-    //Get image value
+    // Get image value
     const imageElement = document.getElementById("gojo");
 
     // Create a Date object from the input value
