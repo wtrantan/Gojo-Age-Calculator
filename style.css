@@ -1,0 +1,62 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: lightblue;
+ 
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+button {
+  background-color: #3498db;
+  max-width:400px;
+
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  animation: glow 1.5s infinite alternate;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #2980b9;
+  animation: none; /* Disable the glow animation on hover */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+
+#ageResult {
+  margin-top: 20px;
+  font-weight: bold;
+}
+img{
+ max-height:300px;
+ max-width:auto;
+}
